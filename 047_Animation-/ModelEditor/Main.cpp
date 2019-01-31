@@ -63,23 +63,23 @@ void Main::PostRender()
 		exe->PostRender();
 
 
-	/*wstring str;
-	RECT rect = { 0, 0, 300, 300 };
+	//wstring str;
+	//RECT rect = { 0, 0, 300, 300 };
 
-	str = String::Format(L"FPS : %.0f", Time::Get()->FPS());
-	DirectWrite::RenderText(str, rect, 12);
+	//str = String::Format(L"FPS : %.0f", Time::Get()->FPS());
+	//DirectWrite::RenderText(str, rect, 12);
 
-	rect.top += 12;
-	D3DXVECTOR3 vec;
-	Context::Get()->GetMainCamera()->Position(&vec);
-	str = String::Format(L"CameraPos : %.0f, %.0f, %.0f", vec.x, vec.y, vec.z);
-	DirectWrite::RenderText(str, rect, 12);
+	//rect.top += 12;
+	//D3DXVECTOR3 vec;
+	//Context::Get()->GetMainCamera()->Position(&vec);
+	//str = String::Format(L"CameraPos : %.0f, %.0f, %.0f", vec.x, vec.y, vec.z);
+	//DirectWrite::RenderText(str, rect, 12);
 
 	rect.top += 12;
 	D3DXVECTOR2 rot;
 	Context::Get()->GetMainCamera()->RotationDegree(&rot);
 	str = String::Format(L"CameraRot : %.0f, %.0f", rot.x, rot.y);
-	DirectWrite::RenderText(str, rect, 12);*/
+	DirectWrite::RenderText(str, rect, 12);
 }
 
 void Main::ResizeScreen()
